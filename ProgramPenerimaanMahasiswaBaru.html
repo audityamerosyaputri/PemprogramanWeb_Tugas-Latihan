@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAM PENERIMAAN MAHASISWA BARU</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fb;
+            color: #101010;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #546f77;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        header h3 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .rektorat-img {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h3>Formulir Pendaftaran Mahasiswa Baru</h3>
+    </header>
+
+    <div class="rektorat-img">
+        <img src="https://panel.beritaminang.com/assets/mitra/1/2020/02/foto-berita-prof-ganefri-kembali-maju-7-nama-mendaftar-sebagai-balon-rektor-unp_100220051828_.jpeg"
+            alt="Rektorat UNP">
+        <img src="https://unp.ac.id/patch/images/800/88c55c3c3da3b19e7b7939feedaceb35.png" alt="logo UNP"
+            style="width: 50%; height: auto;">
+    </div>
+
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <td>No Pendaftaran</td>
+                    <td><input type="number" name="No Pendaftaran"></td>
+                </tr>
+
+                <tr>
+                    <td>Nama Pendaftar</td>
+                    <td><input type="text" name="Nama Pendaftar"></td>
+                </tr>
+
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <td><input type="text" name="Tempat Lahir"></td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input type="date" name="Tanggal Lahir"></td>
+                </tr>
+
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" name="lk"> Laki-laki
+                        <input type="radio" name="pr"> Perempuan
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Agama</td>
+                    <td>
+                        <select name="Agama">
+                            <option value="---Silahkan pilih---">---Silahkan pilih---</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen Protestan">Kristen Protestan</option>
+                            <option value="Kristen Katolik">Kristen Katolik</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Konghucu">Konghucu</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Asal SMA</td>
+                    <td><input type="text" name="Asal SMA"></td>
+                </tr>
+
+                <tr>
+                    <td>Jurusan</td>
+                    <td><input type="text" name="Jurusan"></td>
+                </tr>
+
+                <tr>
+                    <td>Rata-rata Nilai Raport</td>
+                    <td><input type="number" name="Rata-rata Nilai Raport"></td>
+                </tr>
+
+                <tr>
+                    <td>Nama Ayah</td>
+                    <td><input type="text" name="Nama Ayah" required></td>
+                </tr>
+
+                <tr>
+                    <td>Nama Ibu</td>
+                    <td><input type="text" name="Nama Ibu" required></td>
+                </tr>
+
+
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea name="alamat"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>No Telepon</td>
+                    <td><input type="number" name="No Telepon"></td>
+                </tr>
+
+                <tr>
+                    <td>Fakultas</td>
+                    <td><input type="text" name="Fakultas"></td>
+                </tr>
+
+                <tr>
+                    <td>Prodi</td>
+                    <td><input type="text" name="Prodi"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <center>Tolong isi dengan benar dan hati-hati^-^</center>
+                    </td>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                        <input type="button" value="Kembali">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+</body>
